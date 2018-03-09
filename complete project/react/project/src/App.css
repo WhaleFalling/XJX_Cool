@@ -1,0 +1,15 @@
+/* .change{
+  animation: change 0.5s infinite;
+}
+
+@keyframes change{
+  0%{
+    border: 5px solid white;
+  }
+  50%{
+    border: 5px solid greenyellow;
+  }
+  100%{
+    border: 5px solid red;
+  }
+} */

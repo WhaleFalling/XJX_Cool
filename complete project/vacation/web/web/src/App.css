@@ -1,0 +1,100 @@
+@import '~antd/dist/antd.css';
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/*layout*/
+.layout .trigger {
+  font-size: 18px;
+  line-height: 64px;
+  padding: 0 12px;
+  cursor: pointer;
+  transition: color .3s;
+}
+
+.layout .trigger:hover {
+  color: #1890ff;
+}
+
+.layout .logo {
+  height: 32px;
+  background: rgba(255,255,255,.2);
+  margin: 16px;
+  color: floralwhite;
+  text-align: center;
+  line-height: 30px;
+  overflow: hidden;
+}
+
+/*404组件背景*/
+.not_found_bg{
+  background-image: url("/img/NOTFOUND.jpg");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  min-height: 810px;
+}
+/*面包屑*/
+.breadcrumb{
+  display: inline;
+}
+/*课表中日期内的样式*/
+
+.lesson_of_day {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.lesson_of_day .room {
+  color: #0A0;
+}
+
+.lesson_of_day .time {
+  color: #F9B;
+}
+
+/* 权限列表样式 */
+.tree_title_bar{
+
+}
+
+.tree_title_bar .folder_url{
+  color: #0000ee;
+  margin-left: 8px;
+}
+
+.tree_title_bar .port_url{
+  color: #ee0000;
+  margin-left: 8px;
+}
+
+.tree_title_bar button{
+  margin: 0px 0px auto 12px;
+}

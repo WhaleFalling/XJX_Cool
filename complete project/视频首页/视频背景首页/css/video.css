@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+video{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width: 100%;
+	height: auto;
+	z-index: -100;
+}
+body{
+	text-align: center;
+}
+.BFox{
+	margin-top: 50px;
+	width: 200px;
+	height: 200px;
+	opacity:0;
+	border-radius: 50%;
+	-webkit-animation:BFox 5s infinite;
+	-webkit-animation-delay:1s;
+	animation-iteration-count:1;
+	animation-fill-mode: forwards;
+}
+@keyframes BFox
+{
+from {opacity:0;}
+to {opacity:0.4;}
+}
+.helloBF{
+	margin-top: 30px;
+	width: 700px;
+	height: 100px;
+	opacity:0;
+	-webkit-animation:helloBF 5s infinite;
+	-webkit-animation-delay:1.5s;
+	animation-iteration-count:1;
+	animation-fill-mode: forwards;
+}
+@keyframes helloBF
+{
+from {opacity:0;}
+to {opacity:0.8;}
+}
+.vma{
+	margin-top: 10px;
+	width: 150px;
+	height: 150px;
+	opacity:0;
+	-webkit-animation:vma 5s infinite;
+	-webkit-animation-delay:2.7s;
+	animation-iteration-count:1;
+	animation-fill-mode: forwards;
+}
+@keyframes vma
+{
+from {opacity:0;}
+to {opacity:0.5;}
+}
+p{
+	font-size: small;
+	color: white;
+	opacity: 0;
+	-webkit-animation:vma 5s infinite;
+	-webkit-animation-delay:2.7s;
+	animation-iteration-count:1;
+	animation-fill-mode: forwards;
+}
+#footer {
+    background-color: rgba(4, 4, 4, 0.3);
+    color: rgb(160, 144, 104);
+    font-family: english, '微软雅黑';
+    font-size: 13px;
+    text-align: center;
+    bottom: -40px;
+    width: 100%;
+    padding: 10px 0 10px 0;
+    line-height: 20px;
+    position: fixed;
+    -webkit-animation:footers 5s infinite;
+	-webkit-animation-delay:2.7s;
+	animation-iteration-count:1;
+	animation-fill-mode: forwards;
+}
+@keyframes footers
+{
+from {bottom: -40px;}
+to {bottom:0px;}
+}
